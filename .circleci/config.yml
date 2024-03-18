@@ -7,16 +7,16 @@ orbs:
 parameters:
   bucket:
     type: string
-    default: circleci-sagemaker-pipeline
+    default: mitch-s3-blog-bucket
   model_desc:
     type: string
-    default: "Kitten Classifier allowing us to distinguish between giraffes and kittens."
+    default: "Kitten Classifier Mitch allowing us to distinguish between giraffes and kittens."
   model_name:
     type: string
-    default: kitten-classifier
+    default: kitten-classifier-mitch
   project_id:
     type: string
-    default: "e47ee9b0-446f-44cf-bec8-5407ceb06930"
+    default: "2c7df0b7-4f4f-4aab-bfe7-a5d901e3be7f"
   region_name:
     type: string
     default: us-east-1
